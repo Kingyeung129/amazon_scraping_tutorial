@@ -77,7 +77,8 @@ if __name__ == '__main__':
 	# Headers for request
 	HEADERS = ({'User-Agent':
 	            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
-	            'Accept-Language': 'en-US'})
+	            'Accept-Language': 'en-US',
+				'Origin': 'https://www.amazon.com'})
 
 	# The webpage URL
 	URL = f"https://www.amazon.com/s?k={target_product}"
