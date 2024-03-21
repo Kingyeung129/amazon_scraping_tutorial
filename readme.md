@@ -7,41 +7,31 @@ This repo is to showcase web scraping using scripting in python with beautiful s
 
 Create a python virtual environment
 <pre>
-<code>
-python -m venv ".venv"
-</code>
+<code>python -m venv ".venv"</code>
 </pre>
 
 Activate virtual environment using the following command
 
 For Windows:
 <pre>
-<code>
-.\.venv\Scripts\activate
-</code>
+<code>.\.venv\Scripts\activate</code>
 </pre>
 
 For Linux:
 <pre>
-<code>
-source ./.venv/bin/activate
-</code>
+<code>source ./.venv/bin/activate</code>
 </pre>
 
 
 ## Installation
 
 <pre>
-<code>
-pip install -r requirements.txt
-</code>
+<code>pip install -r requirements.txt</code>
 </pre>
 
 
 ## Running the script
 
 <pre>
-<code>
-python scrape.py
-</code>
+<code>python scrape.py</code>
 </pre>
